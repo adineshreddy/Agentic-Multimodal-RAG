@@ -1,0 +1,65 @@
+# Core
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# Auth
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Database
+sqlalchemy>=2.0.0
+
+# LangChain ecosystem — let pip resolve compatible versions together
+langchain>=0.3.12
+langchain-core>=0.3.29
+langchain-community>=0.3.12
+langchain-groq>=0.2.3
+langgraph>=0.2.59
+langchain-text-splitters>=0.3.3
+
+# Embeddings
+sentence-transformers>=3.3.0
+langchain-huggingface>=0.1.2
+
+# Vector store
+chromadb>=0.5.23
+langchain-chroma>=0.1.4
+
+# Document loaders
+pymupdf>=1.24.0
+pypdf>=5.1.0
+docx2txt>=0.8
+openpyxl>=3.1.5
+python-docx>=1.1.2
+
+# Excel / unstructured / multimodal PDF parsing
+unstructured[pdf]>=0.16.0
+pillow>=10.4.0
+
+# Web search
+ddgs>=0.1.0
+
+# Voice / Speech-to-text
+faster-whisper>=1.1.0
+
+# Streamlit frontend
+streamlit>=1.41.0
+audio-recorder-streamlit>=0.0.10
+
+# Google OAuth
+google-auth>=2.27.0
+google-auth-oauthlib>=1.2.0
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.1
+httpx>=0.27.0
+aiofiles>=24.1.0
+tenacity>=9.0.0
+loguru>=0.7.3
+
+# Testing
+pytest>=8.3.0

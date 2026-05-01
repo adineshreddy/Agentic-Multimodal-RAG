@@ -1,0 +1,806 @@
+Medical Knowledge Notes for Retrieval-Augmented Generation Testing
+=================================================================
+
+Document Purpose
+----------------
+This synthetic text corpus is intended for testing document ingestion, chunking,
+retrieval, and question-answering behavior in a retrieval-augmented generation
+system. The content is medical in theme, but it is written for software testing
+and educational experimentation rather than clinical use. It includes sections
+with overlapping vocabulary, abbreviations, repeated entities, structured lists,
+numeric values, and near-duplicate concepts so that retrieval systems can be
+evaluated under realistic conditions.
+
+Section 1: General Internal Medicine Overview
+---------------------------------------------
+Internal medicine focuses on the prevention, diagnosis, and treatment of adult
+diseases. Common chronic conditions include hypertension, type 2 diabetes
+mellitus, chronic kidney disease, coronary artery disease, chronic obstructive
+pulmonary disease, heart failure, obesity, and hyperlipidemia. In outpatient
+care, clinicians often address medication adherence, lifestyle counseling,
+screening guidelines, vaccination updates, and monitoring of laboratory trends.
+
+Primary care visits frequently include assessment of blood pressure, body mass
+index, tobacco use, alcohol use, diet, exercise, sleep, mood, and preventive
+care needs. A patient with poorly controlled hypertension may require repeated
+office measurements, home blood pressure monitoring, review of sodium intake,
+evaluation for secondary causes, and optimization of antihypertensive therapy.
+For example, persistent blood pressure above 140/90 mmHg may prompt medication
+adjustment, though exact targets vary by patient age, comorbidities, and
+guideline framework.
+
+In diabetes care, glycated hemoglobin, or HbA1c, is commonly used to estimate
+average blood glucose control over approximately three months. Patients may also
+need fasting glucose monitoring, renal function tests, urine albumin testing,
+foot examinations, retinal screening, and counseling on carbohydrate intake.
+Complications of long-standing diabetes may include neuropathy, nephropathy,
+retinopathy, cardiovascular disease, and peripheral vascular disease.
+
+Section 2: Cardiology Notes
+---------------------------
+Cardiology evaluates disorders of the heart and vascular system. Common
+conditions include atrial fibrillation, heart failure with reduced ejection
+fraction, heart failure with preserved ejection fraction, coronary artery
+disease, valvular heart disease, peripheral arterial disease, and hypertension.
+
+Chest pain assessment often begins by distinguishing cardiac from non-cardiac
+causes. Features concerning for myocardial ischemia can include pressure-like
+substernal discomfort, exertional symptoms, radiation to the arm or jaw,
+associated diaphoresis, nausea, or dyspnea. However, presentation can vary,
+especially in older adults, women, and people with diabetes.
+
+Important cardiology terms:
+- ECG: electrocardiogram
+- Echo: echocardiogram
+- EF: ejection fraction
+- BNP: B-type natriuretic peptide
+- ACS: acute coronary syndrome
+- STEMI: ST-elevation myocardial infarction
+- NSTEMI: non-ST-elevation myocardial infarction
+
+Atrial fibrillation is an irregularly irregular rhythm that may increase the
+risk of thromboembolic stroke. Management often includes rate control, rhythm
+control in selected patients, and anticoagulation based on stroke risk factors.
+Heart failure symptoms may include dyspnea on exertion, orthopnea, paroxysmal
+nocturnal dyspnea, edema, fatigue, and reduced exercise tolerance. Typical
+monitoring can include weight changes, renal function, potassium, symptoms, and
+volume status.
+
+Section 3: Pulmonology and Respiratory Care
+-------------------------------------------
+Respiratory complaints commonly include cough, wheeze, dyspnea, chest tightness,
+sputum production, hemoptysis, and pleuritic pain. Pulmonology practice often
+addresses asthma, chronic obstructive pulmonary disease, pneumonia, pulmonary
+embolism, interstitial lung disease, and obstructive sleep apnea.
+
+Asthma is characterized by variable airflow limitation and airway inflammation.
+Symptoms may worsen at night, with exercise, with viral infections, or after
+exposure to allergens. Common triggers include dust mites, smoke, animal dander,
+pollen, cold air, and respiratory infections. A rescue inhaler is used for
+quick symptom relief, whereas controller therapy aims to reduce inflammation and
+prevent exacerbations.
+
+COPD is often associated with smoking history and may involve chronic bronchitis,
+emphysema, or both. Patients may report progressive exertional dyspnea, chronic
+cough, and sputum production. Exacerbations can be triggered by respiratory
+infections, poor inhaler adherence, or environmental exposure. Long-term care
+may involve smoking cessation, vaccinations, pulmonary rehabilitation, and
+medication review.
+
+Section 4: Nephrology Concepts
+------------------------------
+The kidneys regulate fluid balance, electrolyte balance, acid-base status, and
+waste removal. Nephrology commonly evaluates acute kidney injury, chronic kidney
+disease, proteinuria, glomerulonephritis, nephrotic syndrome, nephrolithiasis,
+electrolyte disorders, and dialysis-related care.
+
+Creatinine is widely used as a marker related to renal function, though it is
+influenced by muscle mass, hydration, and other variables. Estimated glomerular
+filtration rate, often abbreviated eGFR, helps stage chronic kidney disease.
+Albuminuria or proteinuria may indicate kidney damage even when the eGFR is
+relatively preserved.
+
+Examples of nephrology-related laboratory issues include:
+- Hyperkalemia: elevated serum potassium
+- Hyponatremia: low serum sodium
+- Metabolic acidosis: low bicarbonate and acid-base disturbance
+- Hyperphosphatemia: elevated serum phosphate
+- Elevated BUN: increased blood urea nitrogen
+
+Acute kidney injury may occur in prerenal states, intrinsic renal disease, or
+postrenal obstruction. Clinical evaluation may consider medication exposures,
+volume depletion, sepsis, urinary obstruction, contrast exposure, and baseline
+renal status.
+
+Section 5: Infectious Disease Topics
+------------------------------------
+Infectious disease practice involves diagnosis and management of bacterial,
+viral, fungal, and parasitic infections. Important considerations include source
+control, microbiology data, host immune status, exposure history, travel,
+vaccination history, and antimicrobial stewardship.
+
+Common infectious syndromes include urinary tract infection, cellulitis,
+community-acquired pneumonia, hospital-acquired pneumonia, bacteremia, sepsis,
+osteomyelitis, infective endocarditis, meningitis, and intra-abdominal infection.
+
+Sepsis is a dysregulated host response to infection associated with organ
+dysfunction. Clinical concern may arise with fever or hypothermia, tachycardia,
+tachypnea, hypotension, altered mental status, rising lactate, reduced urine
+output, or worsening renal function. Management principles often include early
+recognition, appropriate cultures when feasible, timely antimicrobial therapy,
+fluid resuscitation when indicated, and evaluation of the infection source.
+
+Antibiotic selection depends on the suspected source, illness severity, allergy
+history, prior culture data, renal function, local resistance patterns, and
+whether the infection is community-acquired or healthcare-associated.
+
+Section 6: Endocrinology Summary
+--------------------------------
+Endocrinology includes disorders of hormones, metabolism, and endocrine glands.
+Common conditions include diabetes mellitus, thyroid disease, adrenal disorders,
+pituitary disorders, osteoporosis, obesity, and metabolic syndrome.
+
+Hypothyroidism may present with fatigue, weight gain, constipation, cold
+intolerance, dry skin, bradycardia, and cognitive slowing. Hyperthyroidism may
+present with weight loss, heat intolerance, palpitations, tremor, anxiety, and
+frequent bowel movements. Thyroid function testing typically includes TSH and,
+in selected cases, free T4 and total or free T3.
+
+Adrenal insufficiency can present with fatigue, weight loss, hypotension,
+abdominal pain, nausea, and electrolyte abnormalities. Cushing syndrome is
+associated with excess glucocorticoid exposure and may present with central
+weight gain, proximal muscle weakness, glucose intolerance, hypertension, and
+skin changes.
+
+Section 7: Neurology Overview
+-----------------------------
+Neurology commonly evaluates headache, seizure, stroke, neuropathy, movement
+disorders, cognitive decline, syncope, dizziness, and neuromuscular weakness.
+A focused neurologic assessment often includes mental status, cranial nerves,
+motor function, sensory function, reflexes, coordination, and gait.
+
+Stroke symptoms may include facial droop, unilateral weakness, speech changes,
+visual disturbance, sensory loss, ataxia, or sudden altered awareness. The time
+of symptom onset is critical in acute stroke evaluation. Seizure history often
+includes aura, loss of consciousness, tonic or clonic activity, incontinence,
+tongue biting, postictal confusion, and provoking factors such as missed
+medications, sleep deprivation, metabolic derangement, or alcohol withdrawal.
+
+Section 8: Gastroenterology Notes
+---------------------------------
+Gastroenterology addresses disorders of the esophagus, stomach, intestines,
+liver, pancreas, gallbladder, and biliary system. Symptoms often include nausea,
+vomiting, abdominal pain, dysphagia, reflux, diarrhea, constipation, melena,
+hematochezia, jaundice, and weight loss.
+
+Gastroesophageal reflux disease may present with heartburn, regurgitation, and
+symptoms that worsen after meals or when lying flat. Peptic ulcer disease may be
+associated with epigastric pain, gastrointestinal bleeding, or anemia. Liver
+disease evaluation often considers alcohol use, viral hepatitis risk, medication
+exposure, metabolic syndrome, and autoimmune causes.
+
+Acute pancreatitis may present with severe epigastric pain radiating to the
+back, nausea, vomiting, and elevated pancreatic enzymes. Gallstone disease may
+lead to biliary colic, cholecystitis, cholangitis, or pancreatitis depending on
+the anatomy and degree of obstruction.
+
+Section 9: Hematology and Oncology
+----------------------------------
+Hematology involves disorders of blood cells, coagulation, and bone marrow.
+Oncology focuses on benign and malignant tumors, cancer staging, systemic
+therapy, radiation, supportive care, and surveillance.
+
+Anemia can be categorized broadly as microcytic, normocytic, or macrocytic.
+Evaluation may include hemoglobin, mean corpuscular volume, reticulocyte count,
+iron studies, vitamin B12, folate, hemolysis markers, kidney function, and
+bleeding history. Thrombocytopenia and leukocytosis also have broad differential
+diagnoses ranging from benign reactive states to serious marrow disorders.
+
+Cancer-related care often addresses diagnosis, staging, symptom burden, pain,
+nausea, appetite changes, fatigue, infection risk, thrombosis risk, and
+treatment toxicities. Supportive oncology may include transfusions, growth
+factor support, antiemetics, analgesia, and palliative care consultation.
+
+Section 10: Common Laboratory Markers
+-------------------------------------
+Below are selected laboratory markers frequently discussed in medicine:
+
+Hemoglobin:
+A protein in red blood cells that carries oxygen. Low values may indicate anemia.
+Very high values may occur in dehydration or polycythemia.
+
+White blood cell count:
+Often used as part of infection or inflammation assessment. Elevation may occur
+with bacterial infection, steroid exposure, stress, or hematologic disease.
+
+Platelet count:
+Important for clotting. Low platelet levels may increase bleeding risk, while
+very high levels may reflect reactive processes or marrow disorders.
+
+Sodium:
+A major serum electrolyte. Abnormalities may be related to volume status,
+hormonal conditions, medications, renal disease, or excessive water intake.
+
+Potassium:
+Critical for muscle and cardiac electrical function. Significant abnormalities
+can cause arrhythmias or neuromuscular symptoms.
+
+Creatinine:
+Commonly used in renal assessment. Trends over time are often more informative
+than a single isolated value.
+
+Lactate:
+May rise in shock, sepsis, tissue hypoperfusion, seizures, or other causes.
+
+CRP and ESR:
+Markers of inflammation that can be elevated in infection, autoimmune disease,
+or chronic inflammatory conditions.
+
+Section 11: Example Synthetic Patient Cases
+-------------------------------------------
+Case A:
+A 67-year-old man with hypertension, diabetes, and chronic kidney disease
+presents with fever, productive cough, dyspnea, and confusion. Oxygen saturation
+is reduced on room air. Chest imaging suggests right lower lobe pneumonia.
+Laboratory data show leukocytosis, elevated creatinine relative to baseline, and
+an increased lactate. Relevant concepts include pneumonia, sepsis, hypoxemia,
+acute kidney injury, antibiotic selection, and fluid balance monitoring.
+
+Case B:
+A 54-year-old woman with obesity and hyperlipidemia reports exertional chest
+pressure for two weeks, worsening over the last 24 hours. She has diaphoresis
+and nausea during episodes. Important retrieval targets include chest pain
+evaluation, coronary syndrome terminology, risk factors, ECG, troponin,
+cardiology consultation, and antithrombotic treatment concepts.
+
+Case C:
+A 29-year-old patient with asthma presents with wheezing after exposure to cat
+dander and smoke. The patient used a rescue inhaler multiple times overnight.
+Relevant topics include asthma triggers, controller versus rescue medication,
+airflow limitation, respiratory distress assessment, and exacerbation management.
+
+Case D:
+A 73-year-old patient with atrial fibrillation and heart failure reports weight
+gain, leg swelling, worsening orthopnea, and reduced exercise tolerance over
+five days. Key terms include volume overload, BNP, echocardiogram, diuresis,
+electrolyte monitoring, anticoagulation, and rhythm or rate control.
+
+Case E:
+A 45-year-old patient reports fatigue, cold intolerance, constipation, and
+weight gain. Key concepts include hypothyroidism, TSH, free T4, endocrine
+assessment, and common symptom patterns.
+
+Section 12: Repeated Abbreviation Block for Retrieval Testing
+-------------------------------------------------------------
+AKI means acute kidney injury.
+CKD means chronic kidney disease.
+COPD means chronic obstructive pulmonary disease.
+CHF can refer to congestive heart failure.
+AF or Afib can refer to atrial fibrillation.
+UTI means urinary tract infection.
+CAP may mean community-acquired pneumonia.
+HAP may mean hospital-acquired pneumonia.
+DVT means deep vein thrombosis.
+PE means pulmonary embolism.
+ICU means intensive care unit.
+MV may mean mechanical ventilation.
+EF means ejection fraction.
+TSH means thyroid-stimulating hormone.
+HbA1c means glycated hemoglobin.
+
+Section 13: Near-Duplicate Content for Similarity Testing
+---------------------------------------------------------
+A patient with chronic kidney disease may need monitoring of creatinine, eGFR,
+electrolytes, blood pressure, medication safety, and proteinuria.
+
+A patient who has chronic renal disease may require surveillance of serum
+creatinine, estimated glomerular filtration rate, potassium, blood pressure,
+drug dosing, and urinary protein loss.
+
+A patient with kidney dysfunction often benefits from repeated review of renal
+indices, filtration estimates, potassium trends, antihypertensive therapy, and
+albumin or protein measurements in urine.
+
+These lines intentionally say similar things using different words so a retrieval
+system can be evaluated for semantic matching rather than only lexical overlap.
+
+Section 14: Query Stress Passages
+---------------------------------
+The word "sepsis" appears in infectious disease, synthetic cases, and laboratory
+discussion. The word "creatinine" appears in nephrology, labs, and cases. The
+abbreviation "AKI" appears in the abbreviation block but the expanded phrase
+"acute kidney injury" appears in multiple other sections. A strong retrieval
+system should connect these related mentions without overmatching to unrelated
+paragraphs.
+
+The phrase "shortness of breath" may also appear as dyspnea. The phrase "heart
+attack" may also be discussed as myocardial infarction or acute coronary
+syndrome. The phrase "kidney failure" may overlap with acute kidney injury or
+chronic kidney disease, depending on context. This kind of wording variation is
+useful for testing retrieval robustness.
+
+Section 15: Tables Written as Plain Text
+----------------------------------------
+Table-like Summary: Chronic Diseases
+Condition | Common Monitoring | Example Concerns
+Hypertension | blood pressure, kidney function | stroke, heart disease, kidney damage
+Diabetes mellitus | HbA1c, glucose, urine albumin | neuropathy, nephropathy, retinopathy
+Heart failure | weight, symptoms, creatinine, potassium | fluid overload, hospitalization
+CKD | creatinine, eGFR, potassium, proteinuria | progression, electrolyte issues
+COPD | symptoms, inhaler use, exacerbation frequency | hypoxemia, hospitalization
+
+Table-like Summary: Acute Syndromes
+Syndrome | Common Features | Example Urgency
+Sepsis | fever, hypotension, organ dysfunction | immediate evaluation
+ACS | chest pain, ECG changes, troponin rise | emergency cardiac assessment
+Stroke | focal neurologic deficits, sudden onset | time-sensitive neurologic care
+PE | pleuritic pain, tachycardia, dyspnea | urgent evaluation
+DKA | hyperglycemia, acidosis, dehydration | emergency metabolic management
+
+Section 16: Disclaimer
+----------------------
+This document is synthetic and simplified. It is not comprehensive, not a
+substitute for medical education, and not a source of treatment advice. Its main
+purpose is to support testing of ingestion, retrieval, chunking boundaries,
+semantic search, ranking thresholds, and answer grounding in RAG systems.
+
+
+Appendix Retrieval Block 1
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 1: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 1A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 1B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 1C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 1D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 2
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 2: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 2A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 2B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 2C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 2D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 3
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 3: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 3A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 3B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 3C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 3D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 4
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 4: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 4A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 4B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 4C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 4D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 5
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 5: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 5A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 5B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 5C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 5D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 6
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 6: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 6A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 6B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 6C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 6D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 7
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 7: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 7A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 7B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 7C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 7D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 8
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 8: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 8A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 8B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 8C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 8D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 9
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 9: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 9A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 9B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 9C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 9D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 10
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 10: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 10A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 10B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 10C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 10D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 11
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 11: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 11A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 11B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 11C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 11D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 12
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 12: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 12A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 12B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 12C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 12D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 13
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 13: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 13A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 13B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 13C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 13D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 14
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 14: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 14A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 14B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 14C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 14D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 15
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 15: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 15A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 15B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 15C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 15D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 16
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 16: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 16A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 16B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 16C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 16D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 17
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 17: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 17A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 17B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 17C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 17D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 18
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 18: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 18A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 18B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 18C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 18D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 19
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 19: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 19A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 19B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 19C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 19D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
+
+Appendix Retrieval Block 20
+---------------------------
+This appendix block is included to increase document size for chunking tests.
+Focus topic 20: combined mentions of hypertension, diabetes, chronic kidney
+disease, sepsis, pneumonia, atrial fibrillation, and thyroid disease.
+
+Example note 20A:
+A patient with hypertension and diabetes may need monitoring of blood pressure,
+renal function, HbA1c, medication adherence, diet, exercise, and cardiovascular
+risk reduction.
+
+Example note 20B:
+A patient with fever, cough, tachycardia, and confusion may raise concern for
+infection, pneumonia, sepsis, hypoxemia, and organ dysfunction.
+
+Example note 20C:
+A patient with palpitations and irregular rhythm may be evaluated for atrial
+fibrillation, stroke prevention strategy, symptom burden, and ventricular rate.
+
+Example note 20D:
+A patient with fatigue, constipation, weight gain, and cold intolerance may be
+screened for hypothyroidism with thyroid function tests such as TSH and free T4.
