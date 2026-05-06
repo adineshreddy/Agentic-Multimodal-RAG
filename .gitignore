@@ -43,3 +43,6 @@ logs/
 
 # macOS
 .DS_Store
+
+# Local project docs
+Agentic_RAG_Take_Home_Project.docx
